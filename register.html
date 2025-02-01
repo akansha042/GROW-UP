@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Grow-Up IT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body class="register-page">
+
+    <div class="register-container">
+        <h1>Create Your Account</h1>
+        <p>Join Grow-Up IT and start your journey towards success!</p>
+
+        <form id="register-form">
+            <div class="input-group">
+                <input type="text" id="fullname" placeholder="Full Name" required>
+                <span class="icon">👤</span>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email" required>
+                <span class="icon">📧</span>
+            </div>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Username" required>
+                <span class="icon">🔑</span>
+            </div>
+            <div class="input-group">
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+                <span class="icon">📱</span>
+            </div>
+            <div class="input-group">
+                <select id="role" required>
+                    <option value="" disabled selected>Select Your Role</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="mentor">Mentor</option>
+                </select>
+                <span class="icon">🎓</span>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+                <span class="icon">🔒</span>
+                <p id="password-strength"></p>
+            </div>
+            <div class="input-group">
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                <span class="icon">✅</span>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+
+</body>
+</html>

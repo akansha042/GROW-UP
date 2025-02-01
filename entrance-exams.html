@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrance Exams | Grow-Up IT</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <header>
+        <h1>Entrance Exams in India</h1>
+        <p>Find all the latest details about major entrance exams.</p>
+    </header>
+
+    <!-- Search Box -->
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search exams..." onkeyup="searchExams()">
+<div id="exam-list"></div> <!-- This is where exams will be displayed -->
+
+        </div>
+
+    <!-- Live Exam Updates -->
+    <section class="live-updates">
+        <h2>Latest Exam News 📰</h2>
+        <ul id="exam-news">
+            <li>Loading latest exam updates...</li>
+        </ul>
+    </section>
+
+    <!-- Exam List -->
+    <section class="exam-container" id="exam-list">
+        <!-- Exams will be dynamically inserted here -->
+    </section>
+
+</body>
+</html>
